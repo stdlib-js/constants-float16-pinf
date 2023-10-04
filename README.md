@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT16_PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-pinf@deno/mod.js';
+import FLOAT16_PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-pinf@v0.1.1-deno/mod.js';
 ```
 
 #### FLOAT16_PINF
@@ -68,7 +68,7 @@ var bool = ( FLOAT16_PINF === Infinity );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT16_PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-pinf@deno/mod.js';
+import FLOAT16_PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-pinf@v0.1.1-deno/mod.js';
 
 console.log( FLOAT16_PINF );
 // => +Infinity
