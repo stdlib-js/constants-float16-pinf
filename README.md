@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FLOAT16_PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-pinf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-pinf/tags). For example,
+
+```javascript
 import FLOAT16_PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-pinf@v0.2.2-esm/index.mjs';
 ```
 
@@ -73,7 +78,7 @@ var bool = ( FLOAT16_PINF === Infinity );
 <body>
 <script type="module">
 
-import FLOAT16_PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-pinf@v0.2.2-esm/index.mjs';
+import FLOAT16_PINF from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-pinf@esm/index.mjs';
 
 console.log( FLOAT16_PINF );
 // => +Infinity
